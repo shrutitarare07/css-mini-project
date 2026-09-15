@@ -6,6 +6,7 @@
     color: #ff8000;
     border-radius: 20px;
     box-shadow: 2px 2px 5px 1px #cccccc;
+    margin-bottom: 15PX;
 }
 
 .nav-link {
@@ -16,10 +17,15 @@
 }
 
 .nav-link:hover {
-    color: #ff8000;
-    text-decoration: underline;
     transition: 0.4s;
+    border-bottom: 1px solid #ff8000;
 }
+
+.nav-link-active{
+
+ border-bottom: 2px solid #ff8000;
+}
+
 
 .nav-items-container {
     margin-left: 100px;
