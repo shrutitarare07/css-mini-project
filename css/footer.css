@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff2e6;
+    padding: 20px;
+    border-top: 4px double #ff8000;
+}
+
+.footer-brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-link {
+    font-size: 8px;
+    margin-bottom: 10px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width:400px) {
+    .footer {
+        position: relative;
+        flex-direction: column;
+        align-items: start;
+        left: -10px;
+        width: 105px;
+        
+
+    }
+
+}
