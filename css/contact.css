@@ -1,0 +1,74 @@
+.contact-hero-img {
+    width: 200px;
+    margin-right: 30px;
+}
+
+.contact-hero-section {
+    display: flex;
+    align-items: center;
+
+}
+
+.contact-hero-title {
+    font-size: 20px;
+}
+
+.contact-hero-subtitle {
+    font-size: 16px;
+}
+
+.contact-query-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap-reverse;
+}
+
+.contact-query-img {
+    height: 250px;
+    font-size: 20px;
+}
+
+.text-input {
+    width: 200px;
+    display: block;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.text-query {
+    width: 200px;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+@media screen and (max-width:400px) {
+    .contact-hero-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contact-hero-title {
+        font-size: 14px;
+    }
+
+    .contact-hero-subtitle {
+        font-size: 10px;
+    }
+
+    .text-input {
+        width: 180px;
+        display: block;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+
+    .text-query {
+        width: 180px;
+        font-size: 16px;
+        margin: 10px 0;
+    }
+    
+}
